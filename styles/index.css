@@ -1,0 +1,76 @@
+body {
+  font-family: "Gotham Pro Regular";
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1025px;
+  margin: 0 auto;
+  padding: 0 15px;}
+
+  .stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .timer {
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    width: 320px;
+    height: 120px;
+    gap: 5px;
+  }
+  .timer span {
+    font-size: 26px;
+  }
+  
+  .start {
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+  }
+  .start button:active {
+    color: #696868;
+  }
+  
+  .stop {
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+  }
+button:active {
+    background-color: #696868;
+  }
+  
+.reset {
+  width: 90px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #FFF;
+  font-size: 16px;
+  border: none;
+}
+/*# sourceMappingURL=index.css.map */
